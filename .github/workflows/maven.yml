@@ -12,5 +12,5 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
-    - run: java -cp java ClientsApplication
+    - run: java -cp java src/main/java/com/gabriel/clients/ClientsApplication.java
 
